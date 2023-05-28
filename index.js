@@ -1,10 +1,20 @@
 function isPalindrome(word) {
   // Write your algorithm here
+let revVariable = word.split('').reverse().join('');
+if (word === revVariable){
+   return true;
 }
+else {
+  return false;
+}
+
+}
+
 
 /* 
   Add your pseudocode here
-*/
+*\\ function is going to take word as arguemment. Will create RevVariable equal to string split reverse and join.
+if statement if word is === to revVariable {empty}
 
 /*
   Add written explanation of your solution here
